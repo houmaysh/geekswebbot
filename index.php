@@ -3,7 +3,7 @@
 
 require 'vendor/autoload.php';
 
-$client = new Zelenin\Telegram\Bot\Api('290977281:AAEZtfBKhmalujsj2Vg_F9nE2872ZqNsUVY'); // Set your access token
+$client = new Zelenin\Telegram\Bot\Api(''); // Set your access token
 $update = json_decode(file_get_contents('php://input'));
 
 
